@@ -6,6 +6,9 @@ In Python, dealing directly with the OpenSSL library (through [PyElliptic](https
 
 To make things easier, I decided to make a wrapper for PyElliptic to make the manipulation of elliptic curves and points more Pythonic.
 
+To start my work on Openssl on Win10 I downloaded the Win64 OpenSSL v1.1.0h Light from the below mentioned link
+http://slproweb.com/products/Win32OpenSSL.html
+
 The wrapper has been tested with all recommended SEC curves (`secp192k1`, `secp192r1`, `secp224k1`, `secp224r1`, `secp256k1`, `secp256r1`, `secp384r1`, `secp521r1`, `sect163k1`, `sect163r1`, `sect163r2`, `sect233k1`, `sect233r1`, `sect239k1`, `sect283k1`, `sect283r1`, `sect409k1`, `sect409r1`, `sect571k1` and `sect571r1`).
 
 Especially point addition and multiplication is way easier, as the following console example usage shows:
